@@ -1,0 +1,48 @@
+<div class="container">
+    <div class="container__item landing-page-container">
+        <div class="content__wrapper">
+
+            <header class="header">
+                <h1 *ngIf="!givenName">Welcome!</h1>
+                <h1 *ngIf="givenName">Welcome, {{givenName}} {{familyName}}!</h1>
+
+                <strong>Status: {{ givenName ? 'logged in' : 'logged out' }} </strong>
+            </header>
+
+            <p class="coords">single sign-on system</p>
+            <div class="ellipses-container">
+                <h2 class="greeting">Hello</h2>
+                <div class="ellipses ellipses__outer--thin">
+                    <div class="ellipses ellipses__orbit"></div>
+                </div>
+                <div class="ellipses ellipses__outer--thick"></div>
+            </div>
+            <div class="panel-body1">
+                <button class="btn btn-default" (click)="login()">Login</button>
+                <button class="btn btn-default" (click)="logout()">Logout</button>
+                <button class="btn btn-default" *ngIf="access_token" (click)="loadUserProfile()">Load User Profile</button>
+                <button class="btn btn-default" (click)="api1()">API 1</button>
+                <button class="btn btn-default" (click)="api2()">API 2</button>
+
+
+            </div>
+
+            <div class="panel-body">
+                <p><b>access_token_expiration:</b> {{access_token_expiration}}</p>
+                <p> <b>id_token_expiration:</b> {{id_token_expiration}}</p>
+            </div>
+
+            <div class="panel-body">
+                <p><b>access_token:</b> {{access_token}}</p>
+                <p><b>id_token:</b> {{id_token}}</p>
+                <div *ngIf="userProfile">
+                    <b>user profile:</b>
+                    <pre>{{userProfile | json}}</pre>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>

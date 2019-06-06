@@ -1,0 +1,11 @@
+/home/demmy/Documents/SSO_PASSWORDLESS/api2/bin/Debug/netcoreapp2.0/api2.deps.json
+/home/demmy/Documents/SSO_PASSWORDLESS/api2/bin/Debug/netcoreapp2.0/api2.runtimeconfig.json
+/home/demmy/Documents/SSO_PASSWORDLESS/api2/bin/Debug/netcoreapp2.0/api2.runtimeconfig.dev.json
+/home/demmy/Documents/SSO_PASSWORDLESS/api2/bin/Debug/netcoreapp2.0/api2.dll
+/home/demmy/Documents/SSO_PASSWORDLESS/api2/bin/Debug/netcoreapp2.0/api2.pdb
+/home/demmy/Documents/SSO_PASSWORDLESS/api2/obj/Debug/netcoreapp2.0/api2.csprojAssemblyReference.cache
+/home/demmy/Documents/SSO_PASSWORDLESS/api2/obj/Debug/netcoreapp2.0/api2.csproj.CoreCompileInputs.cache
+/home/demmy/Documents/SSO_PASSWORDLESS/api2/obj/Debug/netcoreapp2.0/api2.AssemblyInfoInputs.cache
+/home/demmy/Documents/SSO_PASSWORDLESS/api2/obj/Debug/netcoreapp2.0/api2.AssemblyInfo.cs
+/home/demmy/Documents/SSO_PASSWORDLESS/api2/obj/Debug/netcoreapp2.0/api2.dll
+/home/demmy/Documents/SSO_PASSWORDLESS/api2/obj/Debug/netcoreapp2.0/api2.pdb
